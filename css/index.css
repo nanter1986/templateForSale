@@ -19,7 +19,8 @@ body{
     opacity: 0.8;
 }
 .panel{
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 iframe{
     width: 100%;
@@ -27,3 +28,4 @@ iframe{
 ul{
     list-style: none;
 }
+
