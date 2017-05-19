@@ -31,4 +31,10 @@ ul{
 .row{
     margin: 0px;
 }
+p{
+    text-indent: 20px;
+}
+#eidikes{
+    width: 100%;
+}
 
