@@ -8,6 +8,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 65px;
 }
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -37,4 +38,7 @@ p{
 #eidikes{
     width: 100%;
 }
+
+
+
 
