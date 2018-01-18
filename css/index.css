@@ -1,44 +1,80 @@
-body{
-    /*background: gray;*/
-    background-image: url("../img/back.jpg");
-
-    min-height: 500px;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 65px;
+body {
+  /*background: gray;*/
+  background-image: url("../img/back.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 65px;
 }
+
+.navbar-inverse {
+  background-color: #222c;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+
 .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-}
-.carousel-caption{
-    background: grey;
-    color: white;
-    opacity: 0.8;
-}
-.panel{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-iframe{
-    width: 100%;
-}
-ul{
-    list-style: none;
-}
-.row{
-    margin: 0px;
-}
-p{
-    text-indent: 20px;
-}
-#eidikes{
-    width: 100%;
+  display: block;
+  margin-top: 0;
 }
 
+.carousel-caption {
+  background: grey;
+  color: white;
+  opacity: 0.8;
+}
 
+.panel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.panel-body{
+  padding:0px;
+}
 
+iframe {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.row {
+  margin: 0px;
+}
+
+p {
+  text-indent: 20px;
+}
+
+#eidikes {
+  width: 100%;
+}
+
+#koinoxrhsta {
+  background-color: #141212b3;
+  background-image: url("../img/koinoxrhsta.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 0px;
+}
+
+#koinoxrhsta ul {
+  background-color: #141212b3;
+  margin: 0px;
+}
+
+#koinoxrhsta > .panel-heading {
+  background-color: 76a0b6;
+  cololr:#dde4e7;
+  text-align:center;
+}
