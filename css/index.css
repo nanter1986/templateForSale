@@ -35,8 +35,8 @@ body {
   margin-bottom: 20px;
 }
 
-.panel-body{
-  padding:0px;
+.panel-body {
+  padding: 0px;
 }
 
 iframe {
@@ -73,8 +73,38 @@ p {
   margin: 0px;
 }
 
-#koinoxrhsta > .panel-heading {
+#koinoxrhsta>.panel-heading {
   background-color: 76a0b6;
-  cololr:#dde4e7;
-  text-align:center;
+  cololr: #dde4e7;
+  text-align: center;
+}
+
+#katharismoi {
+  background-color: #141212b3;
+  background-image: url("../img/katharismoi.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 0px;
+}
+
+#katharismoi>#accordion>div {
+  background-color: #141212b3;
+  margin: 100px;
+}
+
+ .panel-body, .panel-title, .panel-default, .panel-title,.panel-heading {
+  background-color: #141212b3;
+  color: #dde4e7;
+  text-align: center;
+}
+
+.panel-default > .panel-heading {
+    color: #fff7f7;
+    background-color: #f5f5f500;
+    border-color: #ddd0;
+}
+
+.panel-title{
+  background-color:#0000;
 }
