@@ -13,6 +13,11 @@ body {
 .navbar-inverse {
   background-color: #422742cc;
   font-size:20px;
+
+}
+
+.navbar-nav>li {
+  border-left: solid black 2px;
 }
 
 .container {
@@ -135,7 +140,7 @@ p {
 
 #fthinoAkrivo {
   /*background-color: #141212b3;*/
-  background-image: url("../img/apolimansi.jpg");
+  background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -192,8 +197,8 @@ p {
 
 .logoi>img{
   width:100%;
-  /*height: auto;*/
-  margin: 10px;
-  border:solid black 2px;
+  /*margin: 20px;*/
+  padding:20%;
+  /*border:solid black 2px;*/
 
 }
