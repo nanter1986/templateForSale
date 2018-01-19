@@ -69,7 +69,7 @@ p {
 }
 
 #koinoxrhsta ul {
-  background-color: #141212b3;
+  background-color: #14121299;
   margin: 0px;
 }
 
@@ -80,7 +80,7 @@ p {
 }
 
 #katharismoi {
-  background-color: #141212b3;
+  /*background-color: #141212b3;*/
   background-image: url("../img/katharismoi.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -89,7 +89,7 @@ p {
 }
 
 #katharismoi>#accordion>div {
-  background-color: #141212b3;
+  background-color: #14121299;
   margin: 100px;
 }
 
@@ -107,4 +107,48 @@ p {
 
 .panel-title{
   background-color:#0000;
+}
+
+.panel-body{
+  background-color: #141212b3;
+  text-align:left;
+}
+
+#apolimanseis {
+  /*background-color: #141212b3;*/
+  background-image: url("../img/apolimansi.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 0px;
+}
+
+#khpoi {
+  /*background-color: #141212b3;*/
+  background-image: url("../img/kipoi.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 0px;
+}
+
+#thermansi {
+  /*background-color: #141212b3;*/
+  background-image: url("../img/thermansi.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 0px;
+}
+
+#epikinwniaup{
+  background-image: url("../img/phone.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 0px;
+}
+
+#topothesia{
+  padding:0px;
 }
