@@ -8,11 +8,12 @@ body {
   background-size: cover;
   padding-top: 65px;
   font-size:22px;
+  font-family:Impact;
 }
 
 .navbar-inverse {
   background-color: #422742cc;
-  font-size:20px;
+  font-size:16px;
 
 }
 
@@ -200,5 +201,11 @@ p {
   /*margin: 20px;*/
   padding:20%;
   /*border:solid black 2px;*/
+}
 
+#facebookIcon{
+  width:10%;
+  height:auto;
+  /*width:20px !important;
+  height:20px !important;*/
 }
