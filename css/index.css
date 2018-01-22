@@ -7,14 +7,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 65px;
-  font-size:22px;
-  font-family:Impact;
+  font-size: 22px;
+  font-family: Impact;
 }
 
 .navbar-inverse {
   background-color: #422742cc;
-  font-size:16px;
-
+  font-size: 16px;
 }
 
 .navbar-nav>li {
@@ -36,14 +35,14 @@ body {
   background: #1e1e1ee6;
   color: white;
   opacity: 0.8;
-  border-radius:10px;
+  border-radius: 10px;
 }
 
 .panel {
   margin-top: 50px;
   margin-bottom: 50px;
-  border-radius:0px !important;
-  border:none !important;
+  border-radius: 0px !important;
+  border: none !important;
 }
 
 .panel-body {
@@ -87,11 +86,9 @@ p {
 .panel-heading {
   background-color: #76a0b6;
   colol: #dde4e7;
-  
 }
 
 #treisLogoi {
-
   background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
@@ -104,41 +101,37 @@ p {
   margin: 100px;
 }
 
-
-#accordion>.panel-default{
+#accordion>.panel-default {
   background-color: #14121200;
 }
 
-#accordion2>.panel-default{
+#accordion2>.panel-default {
   background-color: #14121200;
 }
 
- .panel-body, .panel-title, .panel-default, .panel-title,.panel-heading {
+.panel-body, .panel-title, .panel-default, .panel-title, .panel-heading {
   background-color: #141212b3;
   color: #dde4e7;
-
 }
 
-.panel-default > .panel-heading {
-    color: #fff7f7;
-    background-color: #222324;
-    border-color: #ddd0;
+.panel-default>.panel-heading {
+  color: #fff7f7;
+  background-color: #222324;
+  border-color: #ddd0;
 }
 
-.panel-title{
-  background-color:#0000;
+.panel-title {
+  background-color: #0000;
 }
 
-.panel-heading{
-  color:#ebf0f2;
+.panel-heading {
+  color: #ebf0f2;
   background-color: #2c3032;
 }
 
-.panel-body{
+.panel-body {
   background-color: #422742cc;
 }
-
-
 
 #fthinoAkrivo {
   /*background-color: #141212b3;*/
@@ -167,51 +160,52 @@ p {
   padding: 0px;
 }
 
-#epikinwniaup{
+#epikinwniaup {
   background-image: url("../img/phone.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
   padding: 0px;
-  font-size:20px;
-
+  font-size: 20px;
 }
 
-
-
-#topothesia{
-  padding:0px;
+#topothesia {
+  padding: 0px;
 }
 
-.panel-heading{
-  color:#ebf0f2 !important;
-  font-weight:bold !important;
+.panel-heading {
+  color: #ebf0f2 !important;
+  font-weight: bold !important;
   background-color: #291d28 !important;
-  border:none !important;
+  border: none !important;
 }
 
-
-
-
-
-.logoi>img{
-  width:100%;
+.logoi>img {
+  width: 100%;
   /*margin: 20px;*/
   /*padding:20%;*/
   /*border:solid black 2px;*/
 }
 
-#facebookIcon{
-  width:10%;
-  height:auto;
+#facebookIcon {
+  width: 10%;
+  height: auto;
   /*width:20px !important;
   height:20px !important;*/
 }
 
-p{
-  text-align:left;
+p {
+  text-align: left;
 }
 
-h1,h2,h3{
-  text-align:center;
+h1, h2, h3 {
+  text-align: center;
+}
+
+#myImage:hover {
+  transition: padding 1s;
+}
+
+#myImage:hover {
+  padding:20px;
 }
