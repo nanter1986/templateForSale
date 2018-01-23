@@ -10,14 +10,6 @@ $(document).ready(function () {
 
 window.onscroll = function() {scrollFunction()};
 
-$(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 100) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
-});
 
 // When the user clicks on the button, scroll to the top of the document
 /*Scroll to top when arrow up clicked BEGIN*/
