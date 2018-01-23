@@ -1,5 +1,4 @@
 body {
-  /*background: gray;*/
   background-image: url("../img/city.jpg");
   min-height: 500px;
   background-attachment: fixed;
@@ -143,8 +142,8 @@ p {
 }
 
 #alloFirst {
-  /*background-color: #141212b3;*/
-  background-image: url("../img/kipoi.jpg");
+
+  background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -152,8 +151,8 @@ p {
 }
 
 #alloSecond {
-  /*background-color: #141212b3;*/
-  background-image: url("../img/alloSecond.jpg");
+
+  background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -202,10 +201,35 @@ h1, h2, h3 {
   text-align: center;
 }
 
-#myImage:hover {
+.hoverable {
+  padding:0px;
   transition: padding 1s;
 }
 
-#myImage:hover {
+.hoverable:hover {
   padding:20px;
+  transition: padding 1s;
+}
+
+ul{
+  list-style-type:circle;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #291d28; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #422742cc; /* Add a dark-grey background on hover */
 }
