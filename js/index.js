@@ -18,6 +18,7 @@ $(document).ready(function () {
     $("#back2Top").click(function(event) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: 0 }, "slow");
+        $(".nav li").removeClass("active");
         return false;
     });
 
