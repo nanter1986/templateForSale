@@ -227,3 +227,7 @@ ul{
 #back2Top:hover {
     background-color: #422742cc; /* Add a dark-grey background on hover */
 }
+
+#symbols{
+  text-align:center;
+}
