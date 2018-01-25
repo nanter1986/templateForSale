@@ -168,6 +168,15 @@ p {
   padding: 0px;
 }
 
+#questionPanel{
+  background-image: url("../img/shop.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:center;
+  color: white;
+  padding: 0px;
+}
+
 #epikinwniaup {
   background-image: url("../img/phone.jpg");
   background-size: cover;
@@ -248,4 +257,24 @@ ul{
 
 #symbols{
   text-align:center;
+}
+
+.answers{
+  text-align:center;
+  border:5px solid #291d28;
+  border-radius:10px;
+}
+
+#theQuestion{
+  border-bottom:5px solid #291d28;
+}
+
+#correctAnswer{
+  text-align:center;
+  border:5px solid #291d28;
+  border-radius:10px;
+}
+
+#nextQuestion{
+  color:black;
 }
