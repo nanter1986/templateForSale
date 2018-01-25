@@ -1,11 +1,11 @@
 const questions=[
   {
-    question:"What is the first number?",
-    first:"one",
-    two:"two",
-    three:"three",
-    four:"four",
-    correct:"one"
+    question:"Τι ποσοστό των καταναλωτών κάνει έρευνα στο διαδίκτυο πριν πραγματοποιήσει αγορές?",
+    first:"21%",
+    two:"41%",
+    three:"61%",
+    four:"81%",
+    correct:"81%"
   },
   {
     question:"What is my name?",
