@@ -3,7 +3,7 @@ $(document).ready(function() {
   index = 0;
   console.log(questions[0]);
   setQuestion(questions[index]);
-  $("#correctAnswer").hide();
+  //$("#correctAnswer").hide();
 
   $(".nav li").on("click", function() {
     console.log("clicked on item");
@@ -29,20 +29,22 @@ $(document).ready(function() {
     return false;
   });
 
-  function showAnswer() {
-    $(".answers").fadeOut(1000);
-    setTimeout(function() {
-      $("#correctAnswer").fadeIn(1000);
-    }, 1100);
-
-  }
+  // function showAnswer() {
+  //   $(".answers").fadeOut(1000);
+  //   setTimeout(function() {
+  //     $("#correctAnswer").fadeIn(1000);
+  //   }, 1100);
+  //
+  // }
 
   $("#nextQuestion").click(function() {
 
-    $("#correctAnswer").fadeOut(1000);
-    setTimeout(function() {
-      $(".answers").fadeIn(1000);
-    }, 1100);
+    //$("#correctAnswer").fadeOut(1000);
+    // setTimeout(function() {
+    //   $(".answers").fadeIn(1000);
+    // }, 1100);
+    $("#correctAnswer").css("background-color", "transparent");
+    $("#answerSpace").text("ΠΑΡΑΚΑΛΩ ΑΠΑΝΤΗΣΤΕ");
     index++;
     if (index == questions.length) {
       index = 0;
@@ -68,7 +70,7 @@ $(document).ready(function() {
       $("#correctAnswer").css("background-color", "#9e1212b3");
     }
     $("#answerSpace").text(questions[index].correct);
-    showAnswer();
+    //showAnswer();
   });
 
   $("#answerTwo").click(function() {
@@ -78,7 +80,7 @@ $(document).ready(function() {
       $("#correctAnswer").css("background-color", "#9e1212b3");
     }
     $("#answerSpace").text(questions[index].correct);
-    showAnswer();
+    //showAnswer();
   });
 
   $("#answerThree").click(function() {
@@ -88,7 +90,7 @@ $(document).ready(function() {
       $("#correctAnswer").css("background-color", "#9e1212b3");
     }
     $("#answerSpace").text(questions[index].correct);
-    showAnswer();
+    //showAnswer();
   });
 
   $("#answerFour").click(function() {
@@ -98,7 +100,7 @@ $(document).ready(function() {
       $("#correctAnswer").css("background-color", "#9e1212b3");
     }
     $("#answerSpace").text(questions[index].correct);
-    showAnswer();
+    //showAnswer();
   });
 
 

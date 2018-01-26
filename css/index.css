@@ -275,6 +275,12 @@ ul{
   border-radius:10px;
 }
 
+#nextButtonDiv{
+  text-align:center;
+  border:5px solid #291d28;
+  border-radius:10px;
+}
+
 #nextQuestion{
   color:black;
 }
