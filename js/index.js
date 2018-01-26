@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   index = 0;
+  focusOnAnswers = true;
   console.log(questions[0]);
   setQuestion(questions[index]);
   //$("#correctAnswer").hide();
@@ -39,19 +40,20 @@ $(document).ready(function() {
 
   $("#nextQuestion").click(function() {
 
-    //$("#correctAnswer").fadeOut(1000);
-    // setTimeout(function() {
-    //   $(".answers").fadeIn(1000);
-    // }, 1100);
-    $("#correctAnswer").css("background-color", "transparent");
-    $("#answerSpace").text("ΠΑΡΑΚΑΛΩ ΑΠΑΝΤΗΣΤΕ");
-    index++;
-    if (index == questions.length) {
-      index = 0;
-      console.log("looping questions over");
+    if(!focusOnAnswers){
+      $("#correctAnswer").css("background-color", "transparent");
+      $("#answerSpace").text("ΠΑΡΑΚΑΛΩ ΑΠΑΝΤΗΣΤΕ");
+      $("#nextQuestion").html("-----")
+      focusOnAnswers=true;
+      index++;
+      if (index == questions.length) {
+        index = 0;
+        console.log("looping questions over");
+      }
+      setQuestion(questions[index]);
+      console.log("index: " + index);
     }
-    setQuestion(questions[index]);
-    console.log("index: " + index);
+
   });
 
   function setQuestion(questions) {
@@ -63,44 +65,63 @@ $(document).ready(function() {
     console.log("this works");
   }
 
+
+
   $("#answerOne").click(function() {
-    if (questions[index].first == questions[index].correct) {
-      $("#correctAnswer").css("background-color", "#33660fb3");
-    } else {
-      $("#correctAnswer").css("background-color", "#9e1212b3");
+    if (focusOnAnswers) {
+      focusOnAnswers = false;
+      $("#nextQuestion").html("ΕΠΟΜΕΝΗ");
+      if (questions[index].first == questions[index].correct) {
+        $("#correctAnswer").css("background-color", "#33660fb3");
+      } else {
+        $("#correctAnswer").css("background-color", "#9e1212b3");
+      }
+      $("#answerSpace").text(questions[index].correct);
     }
-    $("#answerSpace").text(questions[index].correct);
+
     //showAnswer();
   });
 
   $("#answerTwo").click(function() {
-    if (questions[index].two == questions[index].correct) {
-      $("#correctAnswer").css("background-color", "#33660fb3");
-    } else {
-      $("#correctAnswer").css("background-color", "#9e1212b3");
+    if (focusOnAnswers) {
+      focusOnAnswers = false;
+      $("#nextQuestion").html("ΕΠΟΜΕΝΗ");
+      if (questions[index].two == questions[index].correct) {
+        $("#correctAnswer").css("background-color", "#33660fb3");
+      } else {
+        $("#correctAnswer").css("background-color", "#9e1212b3");
+      }
+      $("#answerSpace").text(questions[index].correct);
+      //showAnswer();
     }
-    $("#answerSpace").text(questions[index].correct);
-    //showAnswer();
   });
 
   $("#answerThree").click(function() {
-    if (questions[index].three == questions[index].correct) {
-      $("#correctAnswer").css("background-color", "#33660fb3");
-    } else {
-      $("#correctAnswer").css("background-color", "#9e1212b3");
+    if (focusOnAnswers) {
+      focusOnAnswers = false;
+      $("#nextQuestion").html("ΕΠΟΜΕΝΗ");
+      if (questions[index].three == questions[index].correct) {
+        $("#correctAnswer").css("background-color", "#33660fb3");
+      } else {
+        $("#correctAnswer").css("background-color", "#9e1212b3");
+      }
+      $("#answerSpace").text(questions[index].correct);
+      //showAnswer();
     }
-    $("#answerSpace").text(questions[index].correct);
-    //showAnswer();
   });
 
   $("#answerFour").click(function() {
-    if (questions[index].four == questions[index].correct) {
-      $("#correctAnswer").css("background-color", "#33660fb3");
-    } else {
-      $("#correctAnswer").css("background-color", "#9e1212b3");
+    if (focusOnAnswers) {
+      focusOnAnswers = false;
+      $("#nextQuestion").html("ΕΠΟΜΕΝΗ");
+      if (questions[index].four == questions[index].correct) {
+        $("#correctAnswer").css("background-color", "#33660fb3");
+      } else {
+        $("#correctAnswer").css("background-color", "#9e1212b3");
+      }
+      $("#answerSpace").text(questions[index].correct);
+      //showAnswer();
     }
-    $("#answerSpace").text(questions[index].correct);
-    //showAnswer();
   });
 
 
