@@ -42,8 +42,8 @@ $(document).ready(function() {
 
     if(!focusOnAnswers){
       $("#correctAnswer").css("background-color", "transparent");
-      $("#answerSpace").text("ΠΑΡΑΚΑΛΩ ΑΠΑΝΤΗΣΤΕ");
-      $("#nextQuestion").html("-----")
+      $("#answerSpace").html("ΠΑΡΑΚΑΛΩ ΑΠΑΝΤΗΣΤΕ");
+      $("#nextQuestion").css("color", "#ccb3b3");
       focusOnAnswers=true;
       index++;
       if (index == questions.length) {
@@ -70,7 +70,7 @@ $(document).ready(function() {
   $("#answerOne").click(function() {
     if (focusOnAnswers) {
       focusOnAnswers = false;
-      $("#nextQuestion").html("ΕΠΟΜΕΝΗ");
+      $("#nextQuestion").css("color", "black");
       if (questions[index].first == questions[index].correct) {
         $("#correctAnswer").css("background-color", "#33660fb3");
       } else {
@@ -85,7 +85,7 @@ $(document).ready(function() {
   $("#answerTwo").click(function() {
     if (focusOnAnswers) {
       focusOnAnswers = false;
-      $("#nextQuestion").html("ΕΠΟΜΕΝΗ");
+      $("#nextQuestion").css("color", "black");
       if (questions[index].two == questions[index].correct) {
         $("#correctAnswer").css("background-color", "#33660fb3");
       } else {
@@ -99,7 +99,7 @@ $(document).ready(function() {
   $("#answerThree").click(function() {
     if (focusOnAnswers) {
       focusOnAnswers = false;
-      $("#nextQuestion").html("ΕΠΟΜΕΝΗ");
+      $("#nextQuestion").css("color", "black");
       if (questions[index].three == questions[index].correct) {
         $("#correctAnswer").css("background-color", "#33660fb3");
       } else {
@@ -113,7 +113,7 @@ $(document).ready(function() {
   $("#answerFour").click(function() {
     if (focusOnAnswers) {
       focusOnAnswers = false;
-      $("#nextQuestion").html("ΕΠΟΜΕΝΗ");
+      $("#nextQuestion").css("color", "black");
       if (questions[index].four == questions[index].correct) {
         $("#correctAnswer").css("background-color", "#33660fb3");
       } else {

@@ -263,6 +263,7 @@ ul{
   text-align:center;
   border:5px solid #291d28;
   border-radius:10px;
+  cursor:pointer;
 }
 
 #theQuestion{
@@ -282,5 +283,5 @@ ul{
 }
 
 #nextQuestion{
-  color:black;
+  color:#ccb3b3;
 }
