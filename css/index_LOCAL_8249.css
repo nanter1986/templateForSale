@@ -168,15 +168,6 @@ p {
   padding: 0px;
 }
 
-#questionPanel{
-  background-image: url("../img/shop.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position:center;
-  color: white;
-  padding: 0px;
-}
-
 #epikinwniaup {
   background-image: url("../img/phone.jpg");
   background-size: cover;
