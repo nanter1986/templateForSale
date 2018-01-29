@@ -302,3 +302,38 @@ ul{
 #nextQuestion{
   color:#ccb3b3;
 }
+
+#social{
+  text-align:center;
+}
+<<<<<<< HEAD
+.answers{
+  text-align:center;
+  border:5px solid #291d28;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+#theQuestion{
+  border-bottom:5px solid #291d28;
+}
+
+#correctAnswer{
+  text-align:center;
+  border:5px solid #291d28;
+  border-radius:10px;
+}
+
+#nextButtonDiv{
+  text-align:center;
+  border:5px solid #291d28;
+  border-radius:10px;
+}
+
+#nextQuestion{
+  color:#ccb3b3;
+=======
+#social{
+  text-align:center;
+>>>>>>> facebookfeed
+}
