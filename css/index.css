@@ -73,7 +73,7 @@ p {
   background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  background-position:center;
+  background-position: center;
   color: white;
   padding: 0px;
 }
@@ -87,8 +87,7 @@ p {
   background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  background-position:center;
-
+  background-position: center;
   color: white;
   padding: 0px;
 }
@@ -115,7 +114,6 @@ p {
   background-color: #0000;
 }
 
-
 .panel-body {
   background-color: #422742cc;
 }
@@ -125,45 +123,43 @@ p {
   background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  background-position:center;
+  background-position: center;
   color: white;
   padding: 0px;
 }
 
 #ofeli {
-
   background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  background-position:center;
+  background-position: center;
   color: white;
   padding: 0px;
 }
 
 #thirtyeuro {
-
   background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  background-position:center;
+  background-position: center;
   color: white;
   padding: 0px;
 }
 
-#dynamikes{
+#dynamikes {
   background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  background-position:center;
+  background-position: center;
   color: white;
   padding: 0px;
 }
 
-#eshop{
+#eshop {
   background-image: url("../img/shop.jpeg");
   background-size: cover;
   background-attachment: fixed;
-  background-position:center;
+  background-position: center;
   color: white;
   padding: 0px;
 }
@@ -172,7 +168,7 @@ p {
   background-image: url("../img/phone.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position:center;
+  background-position: center;
   color: white;
   padding: 0px;
   font-size: 20px;
@@ -195,7 +191,6 @@ p {
   transition: background-color 4s;
 }
 
-
 .logoi>img {
   width: 100%;
 }
@@ -214,55 +209,91 @@ h1, h2, h3 {
 }
 
 .hoverable {
-  padding:0px;
+  padding: 0px;
   transition: padding 1s;
 }
 
 .hoverable:hover {
-  padding:20px;
+  padding: 20px;
   transition: padding 1s;
 }
 
-ul{
-  list-style-type:circle;
+ul {
+  list-style-type: circle;
 }
 
 #back2Top {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: #291d28; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #291d28;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
 }
 
 #back2Top:hover {
-    background-color: #422742cc; /* Add a dark-grey background on hover */
+  background-color: #422742cc;
+  /* Add a dark-grey background on hover */
 }
 
-#symbols{
-  text-align:center;
+#symbols {
+  text-align: center;
 }
 
-#footerMy{
+#footerMy {
   /*background-image: url("../img/phone.jpg");*/
-  background-color:#291d28;
+  background-color: #291d28;
   /*background-size: cover;
   background-attachment: fixed;
   background-position:center;*/
   color: white;
   padding: 0px;
   font-size: 20px;
-  margin-bottom:0px;
-
+  margin-bottom: 0px;
 }
 
-#footerText{
-  text-align:center !important;
+#footerText {
+  text-align: center !important;
+}
+
+@keyframes example {
+  0% {
+    color: #f2e5ff;
+  }
+  25% {
+    color: #d7afff;
+  }
+  50% {
+    color: #bd7cff
+  }
+  75% {
+    color: #d7afff;
+  }
+  100% {
+    color: #f2e5ff;
+  }
+}
+
+#rainbowText {
+  animation-name: example !important;
+  animation-duration: 2s !important;
+  animation-iteration-count: infinite;
 }
