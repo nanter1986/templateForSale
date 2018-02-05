@@ -297,3 +297,8 @@ ul {
   animation-duration: 2s !important;
   animation-iteration-count: infinite;
 }
+
+.strikethrough{
+  color:rgba(129, 125, 122, 0.76);
+  text-decoration: line-through;
+}
