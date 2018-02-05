@@ -336,3 +336,7 @@ ul {
   color: white;
   padding: 0px;
 }
+
+ol{
+  list-style: decimal;
+}
