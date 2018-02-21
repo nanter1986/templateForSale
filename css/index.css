@@ -11,9 +11,21 @@ body {
 }
 
 .navbar-inverse {
-  background-color: #422742cc;
+  background-color: #422742;
   font-size: 18px;
   font-weight:700;
+  opacity:0.6;
+  -webkit-transition:opacity 2s;
+  transition:opacity 2s;
+}
+
+.navbar-inverse:hover {
+  background-color: #422742;
+  font-size: 18px;
+  font-weight:700;
+  opacity:1;
+  -webkit-transition:opacity 2s;
+  transition:opacity 2s;
 }
 
 .navbar-nav>li {
